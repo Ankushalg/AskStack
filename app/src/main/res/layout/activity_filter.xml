@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/filter"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/af_e1"
+            android:visibility="gone"
+            android:hint="@string/enter_your_filter_here"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/tagged"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/af_e2"
+            android:hint="@string/enter_your_tags_here"
+            android:layout_width="match_parent"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/not_tagged"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/af_e3"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="@string/enter_your_not_included_tags_here"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/results_per_search"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/af_e4"
+            android:hint="@string/_1_99"
+            android:inputType="number"
+            android:maxLength="2"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/site"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:id="@+id/af_r1"
+            android:layout_margin="4dp"
+            android:checked="true"
+            android:text="@string/meta_stack_exchange"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/af_r2"
+            android:layout_width="match_parent"
+            android:layout_margin="4dp"
+            android:text="@string/stack_overflow"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/af_r3"
+            android:layout_width="match_parent"
+            android:layout_margin="4dp"
+            android:text="@string/super_user"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/af_r4"
+            android:layout_width="match_parent"
+            android:layout_margin="4dp"
+            android:text="@string/web_applications"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/af_r5"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:text="@string/web_masters"
+            android:layout_marginBottom="16dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/af_save"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorBlueDark"
+            android:text="@string/save"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

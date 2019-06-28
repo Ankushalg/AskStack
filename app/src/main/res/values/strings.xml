@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Ask Stack</string>
+    <string name="add_filter">Add Filter</string>
+    <string name="ask_stack_search">Ask Stack Search:</string>
+    <string name="start_search_your_query_here">Start Searching Your Query/Keywords Here…</string>
+    <string name="search">Search</string>
+    <string name="quick_details">Quick Details:</string>
+    <string name="votes">Votes</string>
+    <string name="answers">Answers</string>
+    <string name="views">Views</string>
+    <string name="last_activity">Last Activity:</string>
+    <string name="created">Created:</string>
+    <string name="user_name">User Name</string>
+    <string name="title">Title</string>
+    <string name="results">Results</string>
+    <string name="shorting">Short</string>
+    <string name="save">Save</string>
+    <string name="web_masters">Web Masters</string>
+    <string name="web_applications">Web Applications</string>
+    <string name="super_user">Super User</string>
+    <string name="stack_overflow">Stack Overflow</string>
+    <string name="meta_stack_exchange">Meta Stack Exchange</string>
+    <string name="site">Site</string>
+    <string name="_1_99">1–99</string>
+    <string name="results_per_search">Results Per Search</string>
+    <string name="enter_your_not_included_tags_here">Enter your not included one tag here…</string>
+    <string name="not_tagged">Not Tagged</string>
+    <string name="enter_your_tags_here">Enter your one Tag here…</string>
+    <string name="tagged">Tagged</string>
+    <string name="enter_your_filter_here">Enter your filter here…</string>
+    <string name="filter">Filter</string>
+    <string name="order">Order</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="devloped_by_ankush_kumar">Devloped By: Ankush Kumar</string>
+</resources>

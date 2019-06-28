@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:id="@+id/li_sr_root"
+    android:background="@color/colorWhite"
+    android:layout_marginBottom="4dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="84dp"
+            android:id="@+id/li_sr_dp"
+            android:padding="4dp"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="4dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:maxLines="3"
+                android:id="@+id/li_sr_title"
+                android:layout_marginBottom="2dp"
+                android:text="@string/title"
+                android:ellipsize="end"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:ellipsize="end"
+                android:text="@string/user_name"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:id="@+id/li_sr_username"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:text="@string/created"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:text="@string/last_activity"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/li_sr_ctime"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/li_sr_atime"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/quick_details"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/li_sr_votes"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_arrow_drop_up_black_24dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:drawablePadding="8dp"
+            android:text="@string/votes"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_arrow_drop_up_black_24dp" />
+        <ImageView
+            android:src="@drawable/ic_comment_black_24dp"
+            android:layout_width="24dp"
+            android:id="@+id/li_sr_i_ans"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_height="24dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/li_sr_ans_num"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:text="@string/answers"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:drawablePadding="8dp"
+            android:id="@+id/li_sr_views"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_remove_red_eye_black_24dp"
+            android:text="@string/views"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_remove_red_eye_black_24dp" />
+    </LinearLayout>
+</LinearLayout>
