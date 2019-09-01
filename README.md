@@ -3,7 +3,7 @@ AskStack is an Android Application developed by **Ankush Kumar** (ankushalg@gmai
 It uses the StackExchange API to make a Query to find the Questions from different StackExchange sites (Like: **Stack Overflow**, **Stack Exchange Meta**, **Super User**, etc).
 
 # Have any Doubts?
-You are free to contact me on ankushalg@gmail.com. I will try to respond within 2 working days*.
+You are free to contact me on ankushalg@gmail.com.
 
 # Want to test the app?
 You can test it by installing the APK.
